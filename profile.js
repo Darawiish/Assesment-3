@@ -3,19 +3,19 @@ console.log('Welcome to my cool page!')
 
 
 
-const myFavoriteColorBtn = document.querySelector()
-const myFavoritePlaceBtn = document.querySelector()
-const myFavortieRitualBtn = document.querySelector()
+const myFavoriteColorBtn = document.querySelector("#color")
+const myFavoritePlaceBtn = document.querySelector("#place")
+const myFavoriteRitualBtn = document.querySelector("#ritual")
 
 myFavoriteColorBtn.addEventListener('click', () => {
 	alert("Blue")
 })
 
-myFavortiePlaceBtn.addEventListener('click', () => {
+myFavoritePlaceBtn.addEventListener('click', () => {
 	alert("Beach")
 })
 
-myFavortieRitualBtn.addEventListener('click', () => {
+myFavoriteRitualBtn.addEventListener('click', () => {
 	alert("Showering")
 }) 
 
